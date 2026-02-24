@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SDR Water Supplies</title>
+    <meta name="description"
+        content="Reach out to SDR Water Supplies in Pamunugama for your bulk water delivery needs. Call us at 0753588021 or email rameshmadushanka3396@gmail.com.">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header / Nav -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo sdr.jpeg" alt="SDR Water Supplies Logo">
+                <div class="logo-text">SDR <span>Water</span></div>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1 class="title-font">Get In Touch</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> &gt; <span>Contact Us</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="section bg-light">
+        <div class="container contact-wrapper">
+
+            <!-- Contact Info Box -->
+            <div class="contact-info">
+                <h3 class="title-font">Direct Contact</h3>
+                <p style="margin-bottom: 30px; opacity: 0.9;">We are always ready to answer any questions or dispatch a
+                    vehicle to your exact location across our 30km radius.</p>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <strong style="display: block; margin-bottom: 5px; font-size: 1.1rem;">Hotlines</strong>
+                        <span style="opacity: 0.9;">075 35 88 021</span><br>
+                        <span style="opacity: 0.9;">072 944 94 12</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <strong style="display: block; margin-bottom: 5px; font-size: 1.1rem;">Email Address</strong>
+                        <span style="opacity: 0.9;">rameshmadushanka3396@gmail.com</span>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <strong style="display: block; margin-bottom: 5px; font-size: 1.1rem;">Office Locations</strong>
+                        <ul style="opacity: 0.9; margin-left: 15px; list-style-type: circle;">
+                            <li>601/B/3, Nugape, Pamunugama <strong>(HQ)</strong></li>
+                            <li>44/D Ragama Rd, Kandana</li>
+                            <li>29C, Station Road, Kapuwatta, Ja-Ela</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <strong style="display: block; margin-bottom: 5px; font-size: 1.1rem;">Operating Hours</strong>
+                        <span style="opacity: 0.9;">Monday to Saturday: 6:00 AM – 10:00 PM</span><br>
+                        <span style="opacity: 0.9; color: var(--accent-light);">Sunday: Important Services
+                            Only</span><br>
+                        <span
+                            style="opacity: 0.9; color: #ffeb3b; font-weight: bold; display: block; margin-top: 5px;">24
+                            Hours Emergency Service Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3 class="title-font" style="margin-bottom: 20px; font-size: 1.8rem;">Send an Inquiry</h3>
+                <form action="#" method="POST"
+                    onsubmit="event.preventDefault(); alert('Thank you for reaching out! We will contact you soon.');">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="07XXXXXXXX" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Delivery Area Location</label>
+                        <select id="location" class="form-control" required>
+                            <option value="">Select an area...</option>
+                            <option value="pamunugama">Pamunugama</option>
+                            <option value="wattala">Wattala</option>
+                            <option value="ja-ela">Ja-Ela</option>
+                            <option value="negombo">Negombo</option>
+                            <option value="uswatakeyyawa">Uswatakeyyawa</option>
+                            <option value="kandana">Kandana</option>
+                            <option value="other">Other (Within 30km)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Required Service</label>
+                        <select id="service" class="form-control" required>
+                            <option value="domestic">Domestic Regular Bulk Water</option>
+                            <option value="commercial">Commercial/Industrial Supply</option>
+                            <option value="pool">Swimming Pool Fill-up</option>
+                            <option value="emergency">Emergency Water Supply</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Detailed Message (Optional)</label>
+                        <textarea id="message" class="form-control"
+                            placeholder="Tell us regarding any specific timing requirements, volume needed, etc."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="border-radius: 8px; width: 100%;">Submit
+                        Request <i class="fa-solid fa-paper-plane btn-icon"></i></button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Map / Action area -->
+    <section class="section" style="padding: 0;">
+        <div
+            style="width: 100%; height: 400px; background: #ddd; display: flex; align-items: center; justify-content: center;">
+            <!-- Placeholder for map embed -->
+            <p style="color: #666; font-size: 1.2rem;"><i class="fa-solid fa-map-location-dot"
+                    style="font-size: 2rem; display: block; margin: 0 auto 10px; color: var(--primary);"></i> Pamunugama
+                Service Radius (Google Maps Embed Space)</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h4 style="margin-bottom: 20px;">SDR Water Supplies</h4>
+            <!-- Social links -->
+            <div class="social-links" style="justify-content: center; margin-bottom: 20px;">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <p style="color: rgba(255, 255, 255, 0.5); font-size: 0.9rem;">&copy; 2026 SDR Water Supplies. All Rights
+                Reserved. Reg No: 00553.</p>
+        </div>
+    </footer>
+
+    <!-- JS script -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
